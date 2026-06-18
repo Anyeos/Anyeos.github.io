@@ -3,7 +3,7 @@ const observerLeft = new IntersectionObserver((entries, observer) => {
     if (entry.isIntersecting) {
       entry.target.classList.add('animate__animated');
       entry.target.classList.add('animate__slideInLeft');
-      //observer.unobserve(entry.target);
+      observer.unobserve(entry.target);
     }
   });
 }, { threshold: 0.01 });
@@ -16,7 +16,7 @@ const observerRight = new IntersectionObserver((entries, observer) => {
     if (entry.isIntersecting) {
       entry.target.classList.add('animate__animated');
       entry.target.classList.add('animate__slideInRight');
-      //observer.unobserve(entry.target);
+      observer.unobserve(entry.target);
     }
   });
 }, { threshold: 0.01 });
@@ -29,7 +29,7 @@ const observerUp = new IntersectionObserver((entries, observer) => {
     if (entry.isIntersecting) {
       entry.target.classList.add('animate__animated');
       entry.target.classList.add('animate__slideInUp');
-      //observer.unobserve(entry.target);
+      observer.unobserve(entry.target);
     }
   });
 }, { threshold: 0.01 });
@@ -42,7 +42,7 @@ const observerZoom = new IntersectionObserver((entries, observer) => {
     if (entry.isIntersecting) {
       entry.target.classList.add('animate__animated');
       entry.target.classList.add('animate__zoomIn');
-      //observer.unobserve(entry.target);
+      observer.unobserve(entry.target);
     }
   });
 }, { threshold: 0.01 });

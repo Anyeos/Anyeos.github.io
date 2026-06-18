@@ -27,8 +27,9 @@
     <link href="css/main.css" rel="stylesheet"/>
     <link href="css/fonts.css" rel="stylesheet"/>
     <link href="css/animations.css" rel="stylesheet"/>
-    <script src="js/main.js"></script>
-    <script src="js/translations.js"></script>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/translations.js" defer></script>
 
     <title data-i18n="title_text">Schwartz Germán Andrés - Mi Currículo</title>
   </head>
@@ -74,7 +75,10 @@
 
     <div id="page" class="container">
       <div class="text-center justify-content-center align-items-center">
-            <a tabindex="0" data-bs-toggle="popover" data-bs-title="" data-bs-content="">
+            <!-- <a tabindex="0" data-bs-toggle="popover" data-bs-title="Sabias" data-bs-content="">
+              <img class="anim-fadeIn img-fluid m-1 border border-dark rounded foto" src="img/foto3.png" alt="Foto"/>
+            </a> -->
+            <a>
               <img class="anim-fadeIn img-fluid m-1 border border-dark rounded foto" src="img/foto3.png" alt="Foto"/>
             </a>
         <h1 data-i18n="header_fullname" id="header-fullname" class="anim-FromRight text-center m-0 p-0">Schwartz Germán Andrés</h1>
@@ -140,36 +144,36 @@
 
 
       <div id="videojuegos-y-contenido" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic">Videojuegos y contenido</h3>
+        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-left">Videojuegos y contenido</h3>
 
         <div class="row info-card">
           <div class="col-md-2"></div>
-          <div class="col-md quicksand-regular">
+          <div class="col-md quicksand-regular to-animate-left">
             <p>En 2014 tomé la decisión de intentar emprender con el desarrollo de videojuegos. Porque la vida me fue llevando a adquirir experiencia que era útil para ese propósito.</p>
-            <p>Actualmente me apasiona hacer este tipo de trabajos. He tenido que realizar, no sólo la programación, sino que también la planificación, el diseño, la música, sonidos e incluso videos promocionales.</p>
+            <p>Actualmente me apasiona hacer este tipo de trabajos. He tenido que realizar, no sólo la programación, sino que también la planificación, el diseño, los gráficos, fxs, la música, sonidos e incluso videos promocionales.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
 
         <div class="row contenido">
           <div class="col-lg-6 px-3 py-1">
-            <div class="mx-2 row item-block text-start anim-lift-shadow">
+            <div class="mx-2 row item-block text-start anim-lift-shadow to-animate-left">
               <div class="col-sm-3 text-center">
                 <h5>Godot</h5>
                 <img class="img-fluid img-devicon" src="img/content/godot-original.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Godot Engine es mi motor de videojuegos favorito. Llevo utilizándolo desde 2019.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-6 px-3 py-1">
-            <div class="mx-2 row item-block text-start anim-lift-shadow">
+            <div class="mx-2 row item-block text-start anim-lift-shadow to-animate-left">
               <div class="col-sm-3 text-center">
                 <h5>Blender 3D</h5>
                 <img class="img-fluid img-devicon" src="img/content/blender-original.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Empecé a utilizarlo en 2013 (aunque lo conocía desde antes) y ahora es mi herramienta cotidiana, incluso para editar video. Me gusta trabajar con los nodos.</p>
               </div>
             </div>
@@ -179,23 +183,23 @@
 
         <div class="row contenido">
           <div class="col-lg-6 px-3 py-1">
-            <div class="mx-2 row item-block text-start anim-lift-shadow">
+            <div class="mx-2 row item-block text-start anim-lift-shadow to-animate-left">
               <div class="col-sm-3 text-center">
                 <h5>Ardour</h5>
                 <img class="img-fluid img-devicon" src="img/content/ardour.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Para hacer la música probé este DAW en 2018. Me gustó tanto que ahora es una herramienta obligada cuando se trata de producción musical.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-6 px-3 py-1">
-            <div class="mx-2 row item-block text-start anim-lift-shadow">
+            <div class="mx-2 row item-block text-start anim-lift-shadow to-animate-left">
               <div class="col-sm-3 text-center">
                 <h5>Inkscape</h5>
                 <img class="img-fluid img-devicon" src="img/content/inkscape.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Empecé a usar Inkscape también en 2013. Desde ese entonces que no puedo prescindir de él.</p>
               </div>
             </div>
@@ -206,24 +210,24 @@
 
         <div class="row contenido">
           <div class="col-lg-6 px-3 py-1">
-            <div class="mx-2 row item-block text-start anim-lift-shadow">
+            <div class="mx-2 row item-block text-start anim-lift-shadow to-animate-left">
               <div class="col-sm-3 text-center">
                 <h5>Procedural</h5>
                 <img class="img-fluid img-devicon" src="img/content/procedural.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Me fascina la generación procedural. Así que trato de usarla en cada creación.</p>
                 <a href="https://anyeos.itch.io/backrooms-the-original">Mira este juego para un ejemplo práctico.</a>
               </div>
             </div>
           </div>
           <div class="col-lg-6 px-3 py-1">
-            <div class="mx-2 row item-block text-start anim-lift-shadow">
+            <div class="mx-2 row item-block text-start anim-lift-shadow to-animate-left">
               <div class="col-sm-3 text-center">
                 <h5>Shaders</h5>
                 <img class="img-fluid img-devicon" src="img/content/shader.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Me encantó y aprendí poniendo a prueba mis habilidades de programación. Creando y practicando con shaders, el fotorealismo, es mi favorito.</p>
               </div>
             </div>
@@ -234,12 +238,12 @@
 
         <div class="row contenido">
           <div class="col-lg-6 px-3 py-1">
-            <div class="mx-2 row item-block text-start anim-lift-shadow">
+            <div class="mx-2 row item-block text-start anim-lift-shadow to-animate-left">
               <div class="col-sm-3 text-center">
                 <h5>DIV Games Studio</h5>
                 <img class="img-fluid img-devicon" src="img/content/div2.png" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>En 1999 pasaba por una tienda de música y vi en la estantería un libro con CD que decía que era para hacer videojuegos. Lo compré y fue mi primera experiencia usando un motor de videojuegos.</p>
               </div>
             </div>
@@ -252,9 +256,9 @@
 
 
       <div id="inteligencia-artificial" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic">Inteligencia Artificial</h3>
+        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-fade">Inteligencia Artificial</h3>
 
-        <div class="row info-card">
+        <div class="row info-card to-animate-up">
           <div class="col-md-2"></div>
           <div class="col-md">
             <p class="quicksand-regular">En 2018 probé por primera vez Stable Diffusion. Desde ese entonces que no he parado de probar y usar la Inteligencia Artificial.</p>
@@ -263,24 +267,24 @@
         </div>
 
         <div class="row contenido">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-up">
             <div class="mx-2 row item-block text-start anim-lift-shadow">
               <div class="col-sm-3 text-center">
                 <h5>ComfyUI</h5>
                 <img class="img-fluid img-devicon" src="img/content/comfyui.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Con varios workflows personalizados lo utilizo para crear o editar: sonido, voces, imágenes y videos.</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-up">
             <div class="mx-2 row item-block text-start anim-lift-shadow">
               <div class="col-sm-3 text-center">
                 <h5>Ollama</h5>
                 <img class="img-fluid img-devicon" src="img/content/ollama.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Es mi favorito para traducciones con prompts personalizados.</p>
               </div>
             </div>
@@ -288,24 +292,24 @@
         </div>
 
         <div class="row contenido">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-up">
             <div class="mx-2 row item-block text-start anim-lift-shadow">
               <div class="col-sm-3 text-center">
                 <h5>Open Code</h5>
                 <img class="img-fluid img-devicon" src="img/content/opencode.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Lo empecé a utilizar hace poco para la ayuda de planificación de proyectos o para obtener código rápido.</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-up">
             <div class="mx-2 row item-block text-start anim-lift-shadow">
               <div class="col-sm-3 text-center">
                 <h5>Gemini</h5>
                 <img class="img-fluid img-devicon" src="img/content/gemini-color.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+              <div class="col-sm-9 d-sm-block align-content-start text-secondary">
                 <p>Muy práctico para hacer cualquier tipo de tarea con texto.</p>
               </div>
             </div>
@@ -316,7 +320,7 @@
       </div>
 
 
-      <div id="linux" class="justify-content-left align-items-top group-block">
+      <div id="linux" class="justify-content-left align-items-top group-block to-animate-right">
         <h3 class="p-0 mx-5 font-weight-bold font-italic">Linux</h3>
 
         <div class="row m-2 p-2 bg-light text-dark text-center anim-lift-shadow">
@@ -330,7 +334,7 @@
       </div>
 
 
-      <div id="frameworks-y-cms" class="justify-content-left align-items-top group-block">
+      <div id="frameworks-y-cms" class="justify-content-left align-items-top group-block  to-animate-zoom">
         <h3 class="p-0 mx-5 font-weight-bold font-italic">Frameworks y CMS</h3>
 
         <div class="row info-card">
@@ -362,9 +366,9 @@
 
 
       <div id="trabajos-realizados" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic">Trabajos realizados</h3>
+        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-up">Trabajos realizados</h3>
 
-        <div class="row info-card">
+        <div class="row info-card to-animate-up">
           <div class="col-md-2"></div>
           <div class="col-md">
             <p class="quicksand-regular">Trabajos que he realizado a lo largo de los años.</p>
@@ -373,22 +377,22 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-up">
             <div class="mx-2 row item-block text-start anim-lift-shadow">
               <div class="col-sm-3 text-center">
                 <img class="img-fluid img-devicon" src="img/work/landing-page.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+              <div class="col-sm-9 d-sm-block align-content-start text-primary">
                 <h5>Landing pages.</h5>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-up">
             <div class="mx-2 row item-block text-start anim-lift-shadow">
               <div class="col-sm-3 text-center">
                 <img class="img-fluid img-devicon" src="img/work/online-shop.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+              <div class="col-sm-9 d-sm-block align-content-start text-primary">
                 <h5>Tiendas web online.</h5>
               </div>
             </div>
@@ -398,22 +402,22 @@
 
 
         <div class="row">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-up">
             <div class="mx-2 row item-block text-start anim-lift-shadow">
               <div class="col-sm-3 text-center">
                 <img class="img-fluid img-devicon" src="img/work/web-restaurante.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+              <div class="col-sm-9 d-sm-block align-content-start text-primary">
                 <h5>Web de restaurante.</h5>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-up">
             <div class="mx-2 row item-block text-start anim-lift-shadow">
               <div class="col-sm-3 text-center">
                 <img class="img-fluid img-devicon" src="img/work/web-medical.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+              <div class="col-sm-9 d-sm-block align-content-start text-primary">
                 <h5>Web de equipos médicos.</h5>
               </div>
             </div>
@@ -423,12 +427,12 @@
 
 
         <div class="row">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-up">
             <div class="mx-2 row item-block text-start anim-lift-shadow">
               <div class="col-sm-3 text-center">
                 <img class="img-fluid img-devicon" src="img/work/web-news.svg" />
               </div>
-              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+              <div class="col-sm-9 d-sm-block align-content-start text-primary">
                 <h5>Web de noticias.</h5>
                 <a href="https://www.puntanoticias.com.ar/">PuntaNoticias.com.ar</a>
               </div>
@@ -441,9 +445,9 @@
 
 
       <div id="servicios" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic">Servicios</h3>
+        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-right">Servicios</h3>
 
-        <div class="row info-card">
+        <div class="row info-card to-animate-right">
           <div class="col-md-2"></div>
           <div class="col-md">
             <p class="quicksand-regular">Con mi curiosidad por la tecnología empecé a probar y usar los servicios que venían en Linux. Y como desarrollador avanzado, no me puede faltar su instalación y uso cuando lo necesito.</p>
@@ -451,7 +455,7 @@
           <div class="col-md-2"></div>
         </div>
 
-        <div class="row text-center row-block">
+        <div class="row text-center row-block to-animate-right">
           <div class="col-sm-4 item-minicard anim-lift-shadow">
             <h5>Docker</h5>
             <img class="img-fluid img-devicon" src="img/skillicon/Docker.svg" />
@@ -466,7 +470,7 @@
           </div>
         </div>
 
-        <div class="row text-center row-block">
+        <div class="row text-center row-block to-animate-right">
           <div class="col-sm-4 item-minicard anim-lift-shadow">
             <h5>Qemu</h5>
             <img class="img-fluid img-devicon" src="img/skillicon/qemu-icon.svg" />
@@ -481,7 +485,7 @@
           </div>
         </div>
 
-        <div class="row text-center row-block">
+        <div class="row text-center row-block to-animate-right">
           <div class="col-sm-4 item-minicard anim-lift-shadow">
             <h5>Nginx</h5>
             <img class="img-fluid img-devicon" src="img/skillicon/Nginx.svg" />
@@ -496,7 +500,7 @@
           </div>
         </div>
 
-        <div class="row text-center row-block">
+        <div class="row text-center row-block to-animate-right">
           <div class="col-sm-4 item-minicard anim-lift-shadow">
             <h5>OpenSSH</h5>
             <img class="img-fluid img-devicon" src="img/skillicon/ssh-original-wordmark.svg" />
@@ -521,9 +525,9 @@
 
 
       <div id="habilidades-de-programacion" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic">Habilidades de programación</h3>
+        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-left">Habilidades de programación</h3>
 
-        <div class="row info-card">
+        <div class="row info-card to-animate-left">
           <div class="col-md-2"></div>
           <div class="col-md">
             <p class="quicksand-regular">Comencé a programar cuando tenía 12 años en una calculadora científica. A los 15 años un tío me enseñó un PC. Tomé los manuales, y me puse a experimentar. Desde ese momento casi no he dejado de hacerlo.</p>
@@ -533,7 +537,7 @@
 
 
         <div class="row">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>Python</h5>
@@ -549,7 +553,7 @@ print("Hola mundo!")</code>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>HTML</h5>
@@ -571,7 +575,7 @@ print("Hola mundo!")</code>
         </div>
 
         <div class="row">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>Java/JavaScript</h5>
@@ -586,7 +590,7 @@ console.log(content);
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>PHP</h5>
@@ -605,7 +609,7 @@ console.log(content);
 
 
         <div class="row">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>Twig</h5>
@@ -624,7 +628,7 @@ console.log(content);
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>CSS</h5>
@@ -643,7 +647,7 @@ console.log(content);
         </div>
 
         <div class="row">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>C/C++</h5>
@@ -663,7 +667,7 @@ int main()
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>Pascal/Lazarus</h5>
@@ -684,7 +688,7 @@ end.</code>
 
 
         <div class="row">
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>BASH</h5>
@@ -698,7 +702,7 @@ echo "Hola mundo!"</code>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 px-3 py-1">
+          <div class="col-lg-6 px-3 py-1 to-animate-left">
             <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
               <div class="col-sm-2 text-center">
                 <h5>Perl</h5>

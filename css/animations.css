@@ -7,9 +7,18 @@
   animation: fadeInRightBig;
   animation-duration: 2s;
 }
+.anim-FromBottom {
+  animation: fadeInUpBig;
+  animation-duration: 1s;
+}
 
 .anim-FromTop {
   animation: fadeInDownBig;
+  animation-duration: 1s;
+}
+
+.anim-shake {
+  animation: headShake;
   animation-duration: 1s;
 }
 

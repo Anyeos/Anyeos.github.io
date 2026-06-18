@@ -1,0 +1,164 @@
+/* Hoja de estilos */
+html, body {
+  background-color: #888888;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#page {
+  margin-top: 20px;
+  overflow: hidden;
+  box-shadow: 1px 3px 4px black;
+  border: solid 1px #c3c3c3;
+  padding: 20px 0px;
+  background-color: #fafafa;
+}
+
+.btn {
+  margin: 2px;
+  /* text-align: left; */
+}
+
+.badge {
+    font-size: 100%;
+    margin: 2px;
+    /*border: none;*/
+    /*background: #126e88;*/
+    text-align: left;
+}
+
+.foto {
+  /*max-width: 300px;*/
+  box-shadow: 0 0 4px 0px black;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+  /*animation: fadeInRightBig;
+  animation-duration: 1s;*/
+}
+.foto:hover {
+  filter: grayscale(0%);
+}
+#header-fullname {
+    /* animation: fadeInDownBig;
+    animation-duration: 1s;*/
+}
+
+.logo {
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 4px;
+}
+
+a {
+    color: #8800ff;
+    transition: color 0.5s ease-in-out;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: #4100ff;
+    text-decoration: underline;
+}
+
+
+.btn {
+  margin: 2px;
+  /* text-align: left; */
+}
+
+.badge {
+    font-size: 100%;
+    margin: 2px;
+    /*border: none;*/
+    /*background: #126e88;*/
+    text-align: left;
+}
+
+
+.img-devicon {
+  max-width: 100px;
+}
+.img-skillicon {
+  max-width: 200px;
+}
+
+.info-card {
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+.group-block {
+  margin: 100px 0 0 0;
+  padding: 10px;
+}
+.item-block {
+  padding: 6px;
+  background: linear-gradient(45deg, #00000020, #ffffff40);
+}
+.item-minicard {
+  padding: 3px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  background: linear-gradient(45deg, #f8f8f8, #e6e6e6);
+}
+#perfiles {
+  /* background: #dbecff; */
+}
+#videojuegos-y-contenido {
+  /* background: #f5dbff; */
+  background: radial-gradient(#f5dbff, #f5dbff, transparent);
+}
+#linux {
+  background: #ffc107;
+}
+#frameworks-y-cms {
+  background: #def2ff;
+  border-color: #ffffff;
+  border-width: 10px;
+  border-style: solid;
+}
+#trabajos-realizados {
+  background: radial-gradient(#e9ffe0, #e9ffe0, transparent);
+}
+#servicios {
+  background: #ffdbdb;
+}
+#habilidades-de-programacion {
+  background: #e7e7e7;
+}
+
+.contenido div div div {
+  padding: 6px;
+}
+.row-block {
+  margin: 1px;
+}
+
+#menu {
+  position: fixed;
+  z-index: 10000;
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  width: 100%;
+  box-shadow: black 0 2px 10px;
+}
+.nav-item {
+  border-width: 5px;
+  border-style: none solid none solid;
+  border-color: #e7e7e7;
+  margin: 0 2px;
+}
+#footer {
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: 11pt;
+  text-align: center;
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}

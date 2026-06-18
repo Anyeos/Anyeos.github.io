@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="256"
+   height="256"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="virtualbox-icon.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.63943445"
+     inkscape:cx="152.47849"
+     inkscape:cy="212.68795"
+     inkscape:window-width="1912"
+     inkscape:window-height="1139"
+     inkscape:window-x="720"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">Virtual Box Icon</title>
+  <desc
+     id="desc1">This is shape (source) for Clarity vector icon theme for gtk</desc>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Virtual Box Icon</dc:title>
+        <dc:description>This is shape (source) for Clarity vector icon theme for gtk</dc:description>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Jankiewicz</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Jakub Jankiewicz</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>2010</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 43.680508,19.347583 c -13.459619,0 -24.463061,11.003436 -24.463061,24.463062 V 212.44963 c 0,13.4596 11.003442,24.20279 24.463061,24.20279 H 212.31947 c 13.45962,0 24.46308,-10.74319 24.46308,-24.20279 V 43.810645 c 0,-13.459626 -11.00346,-24.463062 -24.46308,-24.463062 z m 2.602444,30.188462 H 209.97727 V 206.72422 H 46.282952 Z m 18.477421,17.696681 v 40.338024 l 16.915946,-1.04098 4.944668,-0.26024 1.301223,4.68441 11.711053,37.21508 18.477417,-67.663784 3.64342,-13.27251 z m 61.417897,0 3.90369,13.012266 7.80737,24.983558 3.12294,-28.887238 1.04097,-9.108586 z m 23.16184,0 3.38319,7.026623 28.62698,59.856431 9.88933,-1.04098 V 67.232726 Z m 1.82172,32.270421 -4.16392,36.954833 -12.23153,1.04099 -10.14958,-33.05116 -18.73767,67.40354 -4.6844,16.91595 h 90.04488 v -42.94048 l -12.75203,1.30122 -4.42416,0.26025 -1.82173,-3.90368 z m -73.649427,19.778643 -12.75203,0.78074 v 68.70477 h 34.35239 L 93.90785,172.1116 Z"
+     id="path1"
+     style="stroke-width:1" />
+</svg>

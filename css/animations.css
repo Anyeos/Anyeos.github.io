@@ -1,0 +1,44 @@
+.anim-fadeIn {
+  animation: fadeIn;
+  animation-duration: 1s;
+}
+
+.anim-FromRight {
+  animation: fadeInRightBig;
+  animation-duration: 2s;
+}
+
+.anim-FromTop {
+  animation: fadeInDownBig;
+  animation-duration: 1s;
+}
+
+.anim-wobble {
+  animation: wobble;
+  animation-duration: 1s;
+}
+
+.anim-bounce {
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.anim-lift-shadow {
+  transition: filter 0.5s ease-in-out;
+  /* 1. Set the initial flat state shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 
+              0 1px 3px rgba(0, 0, 0, 0.1);
+  
+  /* 2. Transition both properties smoothly */
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), 
+              box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.anim-lift-shadow:hover {
+  /* Push the element up on the Y-axis */
+  transform: translateY(-8px); 
+  
+  /* Make the shadow larger, blurrier, and softer to mimic physics */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12), 
+              0 5px 15px rgba(0, 0, 0, 0.07);  
+}
+

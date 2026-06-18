@@ -1,13 +1,740 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anyeos GolazoTec</title>
-    <link rel="stylesheet" href="combined.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" /> -->
 
-</body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Lilita+One&family=Quicksand:wght@300..700&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/php.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/bash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/fonts.css" rel="stylesheet"/>
+    <link href="css/animations.css" rel="stylesheet"/>
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+
+    <title data-i18n="title_text">Schwartz Germán Andrés - Mi Currículo</title>
+  </head>
+  <body>
+
+    <nav id="menu" class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#perfiles">Perfiles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#videojuegos-y-contenido">Videojuegos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#inteligencia-artificial">IA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#linux">Linux</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#frameworks-y-cms">Frameworks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabajos-realizados">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades-de-programacion">Programación</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="page" class="container">
+      <div class="text-center justify-content-center align-items-center">
+            <a tabindex="0" data-bs-toggle="popover" data-bs-title="" data-bs-content="">
+              <img class="anim-fadeIn img-fluid m-1 border border-dark rounded foto" src="img/foto3.png" alt="Foto"/>
+            </a>
+        <h1 data-i18n="header_fullname" id="header-fullname" class="anim-FromRight text-center m-0 p-0">Schwartz Germán Andrés</h1>
+        <h4 class="anim-FromRight p-0 m-0 bg-primary text-white font-weight-bold font-italic text-center">Desarrollador de software con orientación artística</h4>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md">
+            <p class="p-2 anim-bounce">Me gusta la creatividad, el desarrollo y el progreso de la humanidad. Por eso disfruto crear productos y servicios que mejoren la vida de las personas. Pienso que a través del arte se puede entretener y enseñar. Y con la ciencia se puede desarrollar y progresar.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-md text-center">
+        <p class="alert bg-dark text-white font-weight-bold">+20 años de experiencia.</p>
+        </div>
+      </div>
+
+
+
+      <div id="perfiles" class="justify-content-left align-items-top group-block">
+        <h3 class="p-0 mx-5 font-weight-bold font-italic">Perfiles públicos</h3>
+
+        <div class="row info-card">
+          <div class="col-md-2"></div>
+          <div class="col-md">
+            <p class="quicksand-regular">Puedes ver directamente lo que hago.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row text-center row-block">
+          <div class="col-sm-3 item-block anim-lift-shadow">
+            <a href="https://www.tiktok.com/@anyeos.personal">
+              <h5>TikTok</h5>
+              <img class="img-fluid img-devicon" src="img/social/tiktok.svg" />
+            </a>
+          </div>
+          <div class="col-sm-3 item-block anim-lift-shadow">
+            <a href="https://anyeos.itch.io/">
+              <h5>itch.IO</h5>
+              <img class="img-fluid img-devicon" src="img/social/itch_io.svg" />
+            </a>
+          </div>
+          <div class="col-sm-3 item-block anim-lift-shadow">
+            <a href="https://steamcommunity.com/id/anyeos/">
+              <h5>Steam</h5>
+              <img class="img-fluid img-devicon" src="img/social/steam.svg" />
+            </a>
+          </div>
+          <div class="col-sm-3 item-block anim-lift-shadow">
+            <a href="https://github.com/Anyeos">
+              <h5>GitHub</h5>
+              <img class="img-fluid img-devicon" src="img/social/github.svg" />
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+      <div id="videojuegos-y-contenido" class="justify-content-left align-items-top group-block">
+        <h3 class="p-0 mx-5 font-weight-bold font-italic">Videojuegos y contenido</h3>
+
+        <div class="row info-card">
+          <div class="col-md-2"></div>
+          <div class="col-md quicksand-regular">
+            <p>En 2014 tomé la decisión de intentar emprender con el desarrollo de videojuegos. Porque la vida me fue llevando a adquirir experiencia que era útil para ese propósito.</p>
+            <p>Actualmente me apasiona hacer este tipo de trabajos. He tenido que realizar, no sólo la programación, sino que también la planificación, el diseño, la música, sonidos e incluso videos promocionales.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row contenido">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>Godot</h5>
+                <img class="img-fluid img-devicon" src="img/content/godot-original.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Godot Engine es mi motor de videojuegos favorito. Llevo utilizándolo desde 2019.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>Blender 3D</h5>
+                <img class="img-fluid img-devicon" src="img/content/blender-original.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Empecé a utilizarlo en 2013 (aunque lo conocía desde antes) y ahora es mi herramienta cotidiana, incluso para editar video. Me gusta trabajar con los nodos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row contenido">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>Ardour</h5>
+                <img class="img-fluid img-devicon" src="img/content/ardour.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Para hacer la música probé este DAW en 2018. Me gustó tanto que ahora es una herramienta obligada cuando se trata de producción musical.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>Inkscape</h5>
+                <img class="img-fluid img-devicon" src="img/content/inkscape.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Empecé a usar Inkscape también en 2013. Desde ese entonces que no puedo prescindir de él.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row contenido">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>Procedural</h5>
+                <img class="img-fluid img-devicon" src="img/content/procedural.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Me fascina la generación procedural. Así que trato de usarla en cada creación.</p>
+                <a href="https://anyeos.itch.io/backrooms-the-original">Mira este juego para un ejemplo práctico.</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>Shaders</h5>
+                <img class="img-fluid img-devicon" src="img/content/shader.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Me encantó y aprendí poniendo a prueba mis habilidades de programación. Creando y practicando con shaders, el fotorealismo, es mi favorito.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row contenido">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>DIV Games Studio</h5>
+                <img class="img-fluid img-devicon" src="img/content/div2.png" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>En 1999 pasaba por una tienda de música y vi en la estantería un libro con CD que decía que era para hacer videojuegos. Lo compré y fue mi primera experiencia usando un motor de videojuegos.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <div id="inteligencia-artificial" class="justify-content-left align-items-top group-block">
+        <h3 class="p-0 mx-5 font-weight-bold font-italic">Inteligencia Artificial</h3>
+
+        <div class="row info-card">
+          <div class="col-md-2"></div>
+          <div class="col-md">
+            <p class="quicksand-regular">En 2018 probé por primera vez Stable Diffusion. Desde ese entonces que no he parado de probar y usar la Inteligencia Artificial.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row contenido">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>ComfyUI</h5>
+                <img class="img-fluid img-devicon" src="img/content/comfyui.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Con varios workflows personalizados lo utilizo para crear o editar: sonido, voces, imágenes y videos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>Ollama</h5>
+                <img class="img-fluid img-devicon" src="img/content/ollama.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Es mi favorito para traducciones con prompts personalizados.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row contenido">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>Open Code</h5>
+                <img class="img-fluid img-devicon" src="img/content/opencode.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Lo empecé a utilizar hace poco para la ayuda de planificación de proyectos o para obtener código rápido.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <h5>Gemini</h5>
+                <img class="img-fluid img-devicon" src="img/content/gemini-color.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-secondary">
+                <p>Muy práctico para hacer cualquier tipo de tarea con texto.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div id="linux" class="justify-content-left align-items-top group-block">
+        <h3 class="p-0 mx-5 font-weight-bold font-italic">Linux</h3>
+
+        <div class="row m-2 p-2 bg-light text-dark text-center anim-lift-shadow">
+          <div class="col-md-2"></div>
+          <div class="col-md">
+            <img class="img-fluid" src="img/skillicon/Linux-Light.svg" />
+            <p class="quicksand-regular">Comencé a experimentar con Linux en el año 2001. Mi primer servidor Linux usando RedHat. Actualmente uso Linux a diario en mi computadora principal y tengo experiencia instalando, configurando y administrando VPS con Linux.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+
+
+      <div id="frameworks-y-cms" class="justify-content-left align-items-top group-block">
+        <h3 class="p-0 mx-5 font-weight-bold font-italic">Frameworks y CMS</h3>
+
+        <div class="row info-card">
+          <div class="col-md-2"></div>
+          <div class="col-md">
+            <p class="quicksand-regular">Mi interés por los servicios en Linux desencadenó a su vez un interés por PHP. Usé PHP desde sus inicios, así que vi nacer muchos frameworks y CMS con él.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row text-center row-block">
+          <div class="col-sm-4 item-block anim-lift-shadow">
+            <h5>Drupal</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/drupal-original.svg" />
+          </div>
+          <div class="col-sm-4 item-block anim-lift-shadow">
+            <h5>Symfony</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/symfony-original.svg" />
+          </div>
+          <div class="col-sm-4 item-block anim-lift-shadow">
+            <h5>Wordpress</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/wordpress-original.svg" />
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+      <div id="trabajos-realizados" class="justify-content-left align-items-top group-block">
+        <h3 class="p-0 mx-5 font-weight-bold font-italic">Trabajos realizados</h3>
+
+        <div class="row info-card">
+          <div class="col-md-2"></div>
+          <div class="col-md">
+            <p class="quicksand-regular">Trabajos que he realizado a lo largo de los años.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <img class="img-fluid img-devicon" src="img/work/landing-page.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+                <h5>Landing pages.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <img class="img-fluid img-devicon" src="img/work/online-shop.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+                <h5>Tiendas web online.</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <img class="img-fluid img-devicon" src="img/work/web-restaurante.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+                <h5>Web de restaurante.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <img class="img-fluid img-devicon" src="img/work/web-medical.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+                <h5>Web de equipos médicos.</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row item-block text-start anim-lift-shadow">
+              <div class="col-sm-3 text-center">
+                <img class="img-fluid img-devicon" src="img/work/web-news.svg" />
+              </div>
+              <div class="col-sm-9 collapse d-sm-block align-content-start text-primary">
+                <h5>Web de noticias.</h5>
+                <a href="https://www.puntanoticias.com.ar/">PuntaNoticias.com.ar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div id="servicios" class="justify-content-left align-items-top group-block">
+        <h3 class="p-0 mx-5 font-weight-bold font-italic">Servicios</h3>
+
+        <div class="row info-card">
+          <div class="col-md-2"></div>
+          <div class="col-md">
+            <p class="quicksand-regular">Con mi curiosidad por la tecnología empecé a probar y usar los servicios que venían en Linux. Y como desarrollador avanzado, no me puede faltar su instalación y uso cuando lo necesito.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row text-center row-block">
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>Docker</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/Docker.svg" />
+          </div>
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>Podman</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/podman-original.svg" />
+          </div>
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>Google Cloud</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/google-cloud-icon.svg" />
+          </div>
+        </div>
+
+        <div class="row text-center row-block">
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>Qemu</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/qemu-icon.svg" />
+          </div>
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>VirtualBox</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/virtualbox-icon.svg" />
+          </div>
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>Apache</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/apache-plain.svg" />
+          </div>
+        </div>
+
+        <div class="row text-center row-block">
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>Nginx</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/Nginx.svg" />
+          </div>
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>MySQL</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/MySQL-Light.svg" />
+          </div>
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>MariaDB</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/mariadb-original.svg" />
+          </div>
+        </div>
+
+        <div class="row text-center row-block">
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>OpenSSH</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/ssh-original-wordmark.svg" />
+          </div>
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>OpenVPN</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/openvpn.svg" />
+          </div>
+          <div class="col-sm-4 item-minicard anim-lift-shadow">
+            <h5>SMTP</h5>
+            <img class="img-fluid img-devicon" src="img/skillicon/smtp-icon.svg" />
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+      <div id="habilidades-de-programacion" class="justify-content-left align-items-top group-block">
+        <h3 class="p-0 mx-5 font-weight-bold font-italic">Habilidades de programación</h3>
+
+        <div class="row info-card">
+          <div class="col-md-2"></div>
+          <div class="col-md">
+            <p class="quicksand-regular">Comencé a programar cuando tenía 12 años en una calculadora científica. A los 15 años un tío me enseñó un PC. Tomé los manuales, y me puse a experimentar. Desde ese momento casi no he dejado de hacerlo.</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>Python</h5>
+                <img class="img-fluid img-devicon" src="img/devicon/python-original.svg" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+print("Hola mundo!")</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>HTML</h5>
+                <img class="img-fluid img-devicon" src="img/devicon/html5-original.svg" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;¡Hola, mundo!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>Java/JavaScript</h5>
+                <img class="img-fluid img-devicon" src="img/devicon/java-original.svg" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>let content = "¡Hola, mundo!";
+console.log(content);
+                  </code>
+                </pre>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>PHP</h5>
+                <img class="img-fluid img-devicon" src="img/devicon/php-original.svg" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>&lt;?php
+  print &quot;Hola mundo!\n&quot;;
+?&gt;</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>Twig</h5>
+                <img class="img-fluid" src="img/devicon/twig-language.png" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  {{ include(&#x27;body.html.twig&#x27;) }}
+&lt;/body&gt;
+&lt;/html&gt;</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>CSS</h5>
+                <img class="img-fluid img-devicon" src="img/devicon/css3-original.svg" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>h1, h2, h3, h4, h5 {
+  color: DeepSkyBlue;
+}</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>C/C++</h5>
+                <img class="img-fluid img-devicon" src="img/devicon/cplusplus-original.svg" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>#include &lt;iostream&gt;
+#include &lt;stdio.h&gt;
+int main()
+{
+    std::cout &lt;&lt; &quot;Hola, mundo&quot;;
+    printf(&quot;Hello World!&quot;);
+    return 0;
+}</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>Pascal/Lazarus</h5>
+                <img class="img-fluid" src="img/devicon/Lazarus-pascal.png" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>program Hola;
+begin
+  writeln('¡Hola, mundo!');
+end.</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>BASH</h5>
+                <img class="img-fluid img-devicon" src="img/devicon/bash-original.svg" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>#/bin/bash
+echo "Hola mundo!"</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 px-3 py-1">
+            <div class="mx-2 row bg-light text-dark text-start anim-lift-shadow">
+              <div class="col-sm-2 text-center">
+                <h5>Perl</h5>
+                <img class="img-fluid img-devicon" src="img/devicon/perl-original.svg" />
+              </div>
+              <div class="col-sm-10 collapse d-sm-block">
+                <pre class="px-2">
+                  <code>#!/usr/bin/env perl
+
+print "hola mundo";</code>
+                </pre>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div id="footer">
+        <div class="row">
+          <div class="col-sm-4">
+            Sitio web estático escrito a mano.
+          </div>
+          <div class="col-sm-4">
+
+          </div>
+          <div class="col-sm-4">
+            <a href="privacidad/index.html">Privacidad</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+<script>hljs.highlightAll();</script>
 </html>

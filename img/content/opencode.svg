@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="opencode.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.64583333"
+     inkscape:cx="30.193548"
+     inkscape:cy="53.419355"
+     inkscape:window-width="1920"
+     inkscape:window-height="988"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <g
+     clip-path="url(#clip0_1401_86274)"
+     id="g4"
+     transform="matrix(0.85333333,0,0,0.85333333,25.6,0)"
+     style="stroke-width:1.17188">
+    <mask
+       id="mask0_1401_86274"
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="240"
+       height="300">
+      <path
+         d="M 240,0 H 0 v 300 h 240 z"
+         fill="#ffffff"
+         id="path1" />
+    </mask>
+    <g
+       mask="url(#mask0_1401_86274)"
+       id="g3"
+       style="stroke-width:1.17188">
+      <path
+         d="M 180,240 H 60 V 120 h 120 z"
+         fill="#cfcecd"
+         id="path2"
+         style="stroke-width:1.17188" />
+      <path
+         d="M 180,60 H 60 v 180 h 120 z m 60,240 H 0 V 0 h 240 z"
+         fill="#211e1e"
+         id="path3"
+         style="stroke-width:1.17188" />
+    </g>
+  </g>
+  <defs
+     id="defs4">
+    <clipPath
+       id="clip0_1401_86274">
+      <rect
+         width="240"
+         height="300"
+         fill="#ffffff"
+         id="rect4"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+</svg>

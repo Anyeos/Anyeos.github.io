@@ -53,3 +53,20 @@ targetElementsZoom.forEach(Element => observerZoom.observe(Element));
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
 
+
+
+const targetElementNavLink = document.querySelectorAll('.nav-link');
+//const targetElementNavButton = document.querySelector('#menu button');
+const navbarCollapse = document.getElementById('navbarSupportedContent');
+targetElementNavLink.forEach((link, index) => {
+  link.addEventListener('click', (event) => {
+    targetElementNavLink.forEach((link, index) => {link.classList.remove("active");});
+    link.classList.add("active");
+    if (navbarCollapse.classList.contains('show')) {
+      const bsCollapse = bootstrap.Collapse.getOrCreateInstance(navbarCollapse);
+      bsCollapse.hide();
+      //targetElementNavButton.click();
+    }
+  });
+
+});

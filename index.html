@@ -29,6 +29,7 @@
     <link href="css/animations.css" rel="stylesheet"/>
 
     <script src="js/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@localjs/localjs@stable/localjs.js"></script>
     <script src="js/translations.js" defer></script>
 
     <title data-i18n="title_text">Schwartz Germán Andrés - Mi Currículo</title>
@@ -44,36 +45,40 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="true" href="#header">Inicio</a>
+              <a translate class="nav-link active" aria-current="true" href="#header">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#perfiles">Perfiles</a>
+              <a translate class="nav-link" href="#perfiles">Perfiles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#videojuegos-y-contenido">Videojuegos</a>
+              <a translate class="nav-link" href="#videojuegos-y-contenido">Videojuegos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#inteligencia-artificial">IA</a>
+              <a translate class="nav-link" href="#inteligencia-artificial">IA</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#linux">Linux</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#frameworks-y-cms">Frameworks</a>
+              <a translate class="nav-link" href="#frameworks-y-cms">Frameworks</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#trabajos-realizados">Trabajos</a>
+              <a translate class="nav-link" href="#trabajos-realizados">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#servicios">Servicios</a>
+              <a translate class="nav-link" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#habilidades-de-programacion">Programación</a>
+              <a translate class="nav-link" href="#habilidades-de-programacion">Programación</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#vitae">Vitae</a>
             </li>
           </ul>
+          <select id="languageSelector">
+            <option value="es">Spanish</option>
+            <option value="en">English</option>
+          </select>
         </div>
       </div>
     </nav>
@@ -91,15 +96,15 @@
         <div class="biodata-card anim-shake">
           <div class="row">
             <div class="col-sm-3"></div>
-            <div class="col-sm-6">Español: nativo, Inglés: intermedio</div>
+            <div translate class="col-sm-6">Español: nativo, Inglés: intermedio</div>
             <div class="col-sm-3"></div>
           </div>
         </div>
-        <h4 class="p-0 m-0 bg-primary text-white font-weight-bold font-italic text-center anim-shake">Desarrollador de software con orientación artística</h4>
+        <h4 translate class="p-0 m-0 bg-primary text-white font-weight-bold font-italic text-center anim-shake">Desarrollador de software con orientación artística</h4>
         <div class="row anim-shake">
           <div class="col-md-2"></div>
           <div class="col-md-8">
-            <p class="p-2">Me gusta la creatividad, el desarrollo y el progreso de la humanidad. Por eso disfruto crear productos y servicios que mejoren la vida de las personas. Pienso que a través del arte se puede entretener y enseñar. Y con la ciencia se puede desarrollar y progresar.</p>
+            <p translate class="p-2">Me gusta la creatividad, el desarrollo y el progreso de la humanidad. Por eso disfruto crear productos y servicios que mejoren la vida de las personas. Pienso que a través del arte se puede entretener y enseñar. Y con la ciencia se puede desarrollar y progresar.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -107,19 +112,19 @@
 
       <div class="row align-items-center">
         <div class="col-md text-center">
-        <p class="alert bg-dark text-white font-weight-bold">+20 años de experiencia.</p>
+        <p translate class="alert bg-dark text-white font-weight-bold">+20 años de experiencia.</p>
         </div>
       </div>
     </div>
 
     <div id="page" class="container region">
       <div id="perfiles" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic">Perfiles públicos</h3>
+        <h3 translate class="p-0 mx-5 font-weight-bold font-italic">Perfiles públicos</h3>
 
         <div class="row info-card">
           <div class="col-md-2"></div>
           <div class="col-md">
-            <p class="quicksand-regular">Puedes ver directamente lo que hago.</p>
+            <p translate class="quicksand-regular">Puedes ver directamente lo que hago.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -157,13 +162,13 @@
 
 
       <div id="videojuegos-y-contenido" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-left">Videojuegos y contenido</h3>
+        <h3 translate class="p-0 mx-5 font-weight-bold font-italic to-animate-left">Videojuegos y contenido</h3>
 
         <div class="row info-card">
           <div class="col-md-2"></div>
           <div class="col-md quicksand-regular to-animate-left">
-            <p>En 2014 tomé la decisión de intentar emprender con el desarrollo de videojuegos. Porque la vida me fue llevando a adquirir experiencia que era útil para ese propósito.</p>
-            <p>Actualmente me apasiona hacer este tipo de trabajos. He tenido que realizar, no sólo la programación, sino que también la planificación, el diseño, los gráficos, fxs, la música, sonidos e incluso videos promocionales.</p>
+            <p translate>En 2014 tomé la decisión de intentar emprender con el desarrollo de videojuegos. Porque la vida me fue llevando a adquirir experiencia que era útil para ese propósito.</p>
+            <p translate>Actualmente me apasiona hacer este tipo de trabajos. He tenido que realizar, no sólo la programación, sino que también la planificación, el diseño, los gráficos, fxs, la música, sonidos e incluso videos promocionales.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -176,7 +181,7 @@
                 <img class="img-fluid img-devicon" src="img/content/godot-original.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Godot Engine es mi motor de videojuegos favorito. Llevo utilizándolo desde 2019.</p>
+                <p translate>Godot Engine es mi motor de videojuegos favorito. Llevo utilizándolo desde 2019.</p>
               </div>
             </div>
           </div>
@@ -187,7 +192,7 @@
                 <img class="img-fluid img-devicon" src="img/content/blender-original.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Empecé a utilizarlo en 2013 (aunque lo conocía desde antes) y ahora es mi herramienta cotidiana, incluso para editar video. Me gusta trabajar con los nodos.</p>
+                <p translate>Empecé a utilizarlo en 2013 (aunque lo conocía desde antes) y ahora es mi herramienta cotidiana, incluso para editar video. Me gusta trabajar con los nodos.</p>
               </div>
             </div>
           </div>
@@ -202,7 +207,7 @@
                 <img class="img-fluid img-devicon" src="img/content/ardour.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Para hacer la música probé este DAW en 2018. Me gustó tanto que ahora es una herramienta obligada cuando se trata de producción musical.</p>
+                <p translate>Para hacer la música probé este DAW en 2018. Me gustó tanto que ahora es una herramienta obligada cuando se trata de producción musical.</p>
               </div>
             </div>
           </div>
@@ -213,7 +218,7 @@
                 <img class="img-fluid img-devicon" src="img/content/inkscape.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Empecé a usar Inkscape también en 2013. Desde ese entonces que no puedo prescindir de él.</p>
+                <p translate>Empecé a usar Inkscape también en 2013. Desde ese entonces que no puedo prescindir de él.</p>
               </div>
             </div>
           </div>
@@ -225,12 +230,12 @@
           <div class="col-lg-6 px-3 py-1">
             <div class="mx-2 row item-block text-start anim-lift-shadow to-animate-left">
               <div class="col-sm-3 text-center">
-                <h5>Procedural</h5>
+                <h5 translate>Procedural</h5>
                 <img class="img-fluid img-devicon" src="img/content/procedural.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Me fascina la generación procedural. Así que trato de usarla en cada creación.</p>
-                <a href="https://anyeos.itch.io/backrooms-the-original">Mira este juego para un ejemplo práctico.</a>
+                <p translate>Me fascina la generación procedural. Así que trato de usarla en cada creación.</p>
+                <a translate href="https://anyeos.itch.io/backrooms-the-original">Mira este juego para un ejemplo práctico.</a>
               </div>
             </div>
           </div>
@@ -241,7 +246,7 @@
                 <img class="img-fluid img-devicon" src="img/content/shader.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Me encantó y aprendí poniendo a prueba mis habilidades de programación. Creando y practicando con shaders, el fotorealismo, es mi favorito.</p>
+                <p translate>Me encantó y aprendí poniendo a prueba mis habilidades de programación. Creando y practicando con shaders, el fotorealismo, es mi favorito.</p>
               </div>
             </div>
           </div>
@@ -257,7 +262,7 @@
                 <img class="img-fluid img-devicon" src="img/content/div2.png" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>En 1999 pasaba por una tienda de música y vi en la estantería un libro con CD que decía que era para hacer videojuegos. Lo compré y fue mi primera experiencia usando un motor de videojuegos.</p>
+                <p translate>En 1999 pasaba por una tienda de música y vi en la estantería un libro con CD que decía que era para hacer videojuegos. Lo compré y fue mi primera experiencia usando un motor de videojuegos.</p>
               </div>
             </div>
           </div>
@@ -269,12 +274,12 @@
 
 
       <div id="inteligencia-artificial" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-fade">Inteligencia Artificial</h3>
+        <h3 translate class="p-0 mx-5 font-weight-bold font-italic to-animate-fade">Inteligencia Artificial</h3>
 
         <div class="row info-card to-animate-up">
           <div class="col-md-2"></div>
           <div class="col-md">
-            <p class="quicksand-regular">En 2018 probé por primera vez Stable Diffusion. Desde ese entonces que no he parado de probar y usar la Inteligencia Artificial.</p>
+            <p translate class="quicksand-regular">En 2018 probé por primera vez Stable Diffusion. Desde ese entonces que no he parado de probar y usar la Inteligencia Artificial.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -287,7 +292,7 @@
                 <img class="img-fluid img-devicon" src="img/content/comfyui.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Con varios workflows personalizados lo utilizo para crear o editar: sonido, voces, imágenes y videos.</p>
+                <p translate>Con varios workflows personalizados lo utilizo para crear o editar: sonido, voces, imágenes y videos.</p>
               </div>
             </div>
           </div>
@@ -298,7 +303,7 @@
                 <img class="img-fluid img-devicon" src="img/content/ollama.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Es mi favorito para traducciones con prompts personalizados.</p>
+                <p translate>Es mi favorito para traducciones con prompts personalizados.</p>
               </div>
             </div>
           </div>
@@ -312,7 +317,7 @@
                 <img class="img-fluid img-devicon" src="img/content/opencode.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Lo empecé a utilizar hace poco para la ayuda de planificación de proyectos o para obtener código rápido.</p>
+                <p translate>Lo empecé a utilizar hace poco para la ayuda de planificación de proyectos o para obtener código rápido.</p>
               </div>
             </div>
           </div>
@@ -323,7 +328,7 @@
                 <img class="img-fluid img-devicon" src="img/content/gemini-color.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-secondary">
-                <p>Muy práctico para hacer cualquier tipo de tarea con texto.</p>
+                <p translate>Muy práctico para hacer cualquier tipo de tarea con texto.</p>
               </div>
             </div>
           </div>
@@ -340,7 +345,7 @@
           <div class="col-md-2"></div>
           <div class="col-md">
             <img class="img-fluid" src="img/skillicon/Linux-Light.svg" />
-            <p class="quicksand-regular">Comencé a experimentar con Linux en el año 2001. Mi primer servidor Linux usando RedHat. Actualmente uso Linux a diario en mi computadora principal y tengo experiencia instalando, configurando y administrando VPS con Linux.</p>
+            <p translate class="quicksand-regular">Comencé a experimentar con Linux en el año 2001. Mi primer servidor Linux usando RedHat. Actualmente uso Linux a diario en mi computadora principal y tengo experiencia instalando, configurando y administrando VPS con Linux.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -348,12 +353,12 @@
 
 
       <div id="frameworks-y-cms" class="justify-content-left align-items-top group-block  to-animate-zoom">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic">Frameworks y CMS</h3>
+        <h3 translate class="p-0 mx-5 font-weight-bold font-italic">Frameworks y CMS</h3>
 
         <div class="row info-card">
           <div class="col-md-2"></div>
           <div class="col-md">
-            <p class="quicksand-regular">Mi interés por los servicios en Linux desencadenó a su vez un interés por PHP. Usé PHP desde sus inicios, así que vi nacer muchos frameworks y CMS con él.</p>
+            <p translate class="quicksand-regular">Mi interés por los servicios en Linux desencadenó a su vez un interés por PHP. Usé PHP desde sus inicios, así que vi nacer muchos frameworks y CMS con él.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -379,12 +384,12 @@
 
 
       <div id="trabajos-realizados" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-up">Trabajos realizados</h3>
+        <h3 translate class="p-0 mx-5 font-weight-bold font-italic to-animate-up">Trabajos realizados</h3>
 
         <div class="row info-card to-animate-up">
           <div class="col-md-2"></div>
           <div class="col-md">
-            <p class="quicksand-regular">Trabajos que he realizado a lo largo de los años.</p>
+            <p translate class="quicksand-regular">Trabajos que he realizado a lo largo de los años.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -396,7 +401,7 @@
                 <img class="img-fluid img-devicon" src="img/work/landing-page.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-primary">
-                <h5>Landing pages.</h5>
+                <h5 translate>Landing pages.</h5>
               </div>
             </div>
           </div>
@@ -406,7 +411,7 @@
                 <img class="img-fluid img-devicon" src="img/work/online-shop.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-primary">
-                <h5>Tiendas web online.</h5>
+                <h5 translate>Tiendas web online.</h5>
               </div>
             </div>
           </div>
@@ -421,7 +426,7 @@
                 <img class="img-fluid img-devicon" src="img/work/web-restaurante.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-primary">
-                <h5>Web de restaurante.</h5>
+                <h5 translate>Web de restaurante.</h5>
               </div>
             </div>
           </div>
@@ -431,7 +436,7 @@
                 <img class="img-fluid img-devicon" src="img/work/web-medical.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-primary">
-                <h5>Web de equipos médicos.</h5>
+                <h5 translate>Web de equipos médicos.</h5>
               </div>
             </div>
           </div>
@@ -446,7 +451,7 @@
                 <img class="img-fluid img-devicon" src="img/work/web-news.svg" />
               </div>
               <div class="col-sm-9 d-sm-block align-content-start text-primary">
-                <h5>Web de noticias.</h5>
+                <h5 translate>Web de noticias.</h5>
                 <a href="https://www.puntanoticias.com.ar/">PuntaNoticias.com.ar</a>
               </div>
             </div>
@@ -458,12 +463,12 @@
 
 
       <div id="servicios" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-right">Servicios</h3>
+        <h3 translate class="p-0 mx-5 font-weight-bold font-italic to-animate-right">Servicios</h3>
 
         <div class="row info-card to-animate-right">
           <div class="col-md-2"></div>
           <div class="col-md">
-            <p class="quicksand-regular">Con mi curiosidad por la tecnología empecé a probar y usar los servicios que venían en Linux. Y como desarrollador avanzado, no me puede faltar su instalación y uso cuando lo necesito.</p>
+            <p translate class="quicksand-regular">Con mi curiosidad por la tecnología empecé a probar y usar los servicios que venían en Linux. Y como desarrollador avanzado, no me puede faltar su instalación y uso cuando lo necesito.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -538,12 +543,12 @@
 
 
       <div id="habilidades-de-programacion" class="justify-content-left align-items-top group-block">
-        <h3 class="p-0 mx-5 font-weight-bold font-italic to-animate-left">Habilidades de programación</h3>
+        <h3 translate class="p-0 mx-5 font-weight-bold font-italic to-animate-left">Habilidades de programación</h3>
 
         <div class="row info-card to-animate-left">
           <div class="col-md-2"></div>
           <div class="col-md">
-            <p class="quicksand-regular">Comencé a programar cuando tenía 12 años en una calculadora científica. A los 15 años un tío me enseñó un PC. Tomé los manuales, y me puse a experimentar. Desde ese momento casi no he dejado de hacerlo.</p>
+            <p translate class="quicksand-regular">Comencé a programar cuando tenía 12 años en una calculadora científica. A los 15 años un tío me enseñó un PC. Tomé los manuales, y me puse a experimentar. Desde ese momento casi no he dejado de hacerlo.</p>
           </div>
           <div class="col-md-2"></div>
         </div>
@@ -743,7 +748,7 @@ print "hola mundo";</code>
           <div class="col-md-10 quicksand-regular p-2">
             <div class="row">
               <div class="col-md-12">
-                <p>Libros de Electricidad y Electrónica Básica, entre otros.</p></div>
+                <p translate>Libros de Electricidad y Electrónica Básica, entre otros.</p></div>
               </div>
             </div>
         </div>
@@ -752,18 +757,18 @@ print "hola mundo";</code>
           <div class="col-md-2"><h5>1994 – 1999</h5></div>
           <div class="col-md-10 quicksand-regular">
             <div class="row">
-              <div class="col-md-6 p-2"><p>Técnico Electrónico Óptico</p></div>
+              <div class="col-md-6 p-2"><p translate>Técnico Electrónico Óptico</p></div>
               <div class="col-md-6 p-2">
                 <p>Instituto Centenarios (ex E.T.B.)</p>
                 <p>+54 2932 48-6968</p>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 p-2"><p>Curso IBM de Programación</p></div>
+              <div class="col-md-6 p-2"><p translate>Curso IBM de Programación</p></div>
               <div class="col-md-6 p-2"><p>Multimedia Ediciones</p></div>
             </div>
             <div class="row">
-              <div class="col-md-6 p-2"><p>Manejo de MS-DOS y Windows 95</p></div>
+              <div class="col-md-6 p-2"><p translate>Manejo de MS-DOS y Windows 95</p></div>
               <div class="col-md-6 p-2"><p></p></div>
             </div>
           </div>
@@ -774,7 +779,7 @@ print "hola mundo";</code>
           <div class="col-md-10 quicksand-regular p-2">
             <div class="row">
               <div class="col-md-6 p-2"><p>Mundo PC – Olavarría, Buenos Aires</p></div>
-              <div class="col-md-6 p-2"><p></p>Socio encargado de servicio técnico.</div>
+              <div class="col-md-6 p-2"><p translate>Socio encargado de servicio técnico.</p></div>
               </div>
             </div>
         </div>
@@ -784,7 +789,7 @@ print "hola mundo";</code>
           <div class="col-md-10 quicksand-regular p-2">
             <div class="row">
               <div class="col-md-6 p-2"><p>Micro Cyber – Brown 1297, Punta Alta, Buenos Aires</p></div>
-              <div class="col-md-6 p-2"><p>Dueño. Instalación de los equipos. Preparado de un servidor para compartir Internet. Atención al público y servicio técnico. Trabajos de oficina (tipeos, impresiones, escaneos).</p></div>
+              <div class="col-md-6 p-2"><p translate>Dueño. Instalación de los equipos. Preparado de un servidor para compartir Internet. Atención al público y servicio técnico. Trabajos de oficina (tipeos, impresiones, escaneos).</p></div>
             </div>
           </div>
         </div>
@@ -794,10 +799,10 @@ print "hola mundo";</code>
           <div class="col-md-10 quicksand-regular p-2">
             <div class="row">
               <div class="col-md-6 p-2"><p>Microcybernética – Patagones 505, Punta Alta, Buenos Aires</p></div>
-              <div class="col-md-6 p-2"><p>Dueño. Venta de insumos y accesorios informáticos. Atención al público y servicio técnico. Trabajos de oficina (tipeos, impresiones, escaneos).</p></div>
+              <div class="col-md-6 p-2"><p translate>Dueño. Venta de insumos y accesorios informáticos. Atención al público y servicio técnico. Trabajos de oficina (tipeos, impresiones, escaneos).</p></div>
             </div>
             <div class="row">
-              <div class="col-md-6 p-2"><p>Radioaficionado Novicio</p></div>
+              <div class="col-md-6 p-2"><p translate>Radioaficionado Novicio</p></div>
               <div class="col-md-6 p-2"><p>Punta Alta Radio Club</p><p>Tel.: +54 2932 435211</p></div>
             </div>
           </div>
@@ -808,14 +813,14 @@ print "hola mundo";</code>
           <div class="col-md-10 quicksand-regular p-2">
             <div class="row">
               <div class="col-md-6 p-2"><p>Cielo Aragua, c.a. - RIF: J­29515189­6 - Tel.: +58 243 2171677 - Maracay, Aragua</p></div>
-              <div class="col-md-6 p-2"><p>Dueño. Planificación y emprendimiento de proyectos, estrategias técnicas y comerciales para la empresa. Prestación de servicios comunicacionales y técnicos. Venta de productos afines. Desarrollo de sistemas tecnológicos para aplicaciones comerciales y otras. Comercio electrónico (e­marketing). Innovaciones tecnológicas.</p></div>
+              <div class="col-md-6 p-2"><p translate>Dueño. Planificación y emprendimiento de proyectos, estrategias técnicas y comerciales para la empresa. Prestación de servicios comunicacionales y técnicos. Venta de productos afines. Desarrollo de sistemas tecnológicos para aplicaciones comerciales y otras. Comercio electrónico (e­marketing). Innovaciones tecnológicas.</p></div>
             </div>
             <div class="row">
-              <div class="col-md-6 p-2"><p>Diseño y desarrollo de panel electrónico de acondicionador de aire.</p></div>
-              <div class="col-md-6 p-2"><p>Consultorio Odontológico</p></div>
+              <div class="col-md-6 p-2"><p translate>Diseño y desarrollo de panel electrónico de acondicionador de aire.</p></div>
+              <div class="col-md-6 p-2"><p translate>Consultorio Odontológico</p></div>
             </div>
             <div class="row">
-              <div class="col-md-6 p-2"><p>Diseño y desarrollo de sistema digital de automatización para equipo de soldadura.</p></div>
+              <div class="col-md-6 p-2"><p translate>Diseño y desarrollo de sistema digital de automatización para equipo de soldadura.</p></div>
               <div class="col-md-6 p-2"><p>Coop. Ind. Arica 0095 – Maracay, Aragua</p></div>
             </div>
           </div>
@@ -825,17 +830,17 @@ print "hola mundo";</code>
           <div class="col-md-2"><h5>2013 - </h5></div>
           <div class="col-md-5 quicksand-regular p-2">
             <div class="row">
-              <div class="col-md-12 p-2"><p>Reparación de equipos de audio y electrónicos.</p></div>
+              <div class="col-md-12 p-2"><p translate>Reparación de equipos de audio y electrónicos.</p></div>
             </div>
             <div class="row">
-              <div class="col-md-12 p-2"><p>Sitios web con Drupal y Symfony para clientes.</p></div>
+              <div class="col-md-12 p-2"><p translate>Sitios web con Drupal y Symfony para clientes.</p></div>
             </div>
             <div class="row">
-              <div class="col-md-12 p-2"><p>Inicio de emprendimiento para el desarrollo de videojuegos.</p></div>
+              <div class="col-md-12 p-2"><p translate>Inicio de emprendimiento para el desarrollo de videojuegos.</p></div>
             </div>
           </div>
           <div class="col-md-5 quicksand-regular p-2 align-content-center">
-            <p>Profesional independiente freelance</p>
+            <p translate>Profesional independiente freelance</p>
           </div>
         </div>
 
@@ -851,7 +856,7 @@ print "hola mundo";</code>
 
         </div>
         <div class="col-sm-4">
-          Sitio web estático escrito a mano.
+          <span translate>Sitio web estático escrito a mano.</span>
         </div>
         <div class="col-sm-4">
           <!-- <a href="privacidad/index.html">Privacidad</a> -->

@@ -1,10 +1,25 @@
-const resources = {
-  es: { 
-  title_text: "Schwartz Germán Andrés - Mi Currículo",
-  app_description: "Esta es nuestra aplicación.",
-  },
-  en: { 
-  title_text: "Schwartz German Andres - My Curriculum",
-  app_description: "This is our application." },
-};
+var translations = {};
 
+async function loadTranslations() {
+    try {
+        const response = await fetch('translations.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        translations = await response.json();
+        //console.log(text);
+    } catch (error) {
+        console.error('Failed to load file:', error);
+    }
+}
+
+loadTranslations();
+const userLang = new Intl.Locale(navigator.language).language;
+const languageSelector = document.getElementById("languageSelector");
+languageSelector.value = userLang;
+
+localjs.init(languageSelector.value, translations);
+languageSelector.addEventListener("change", function() {
+  localjs.update(languageSelector.value, translations);
+});

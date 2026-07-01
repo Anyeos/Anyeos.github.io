@@ -7,7 +7,7 @@
   "Perfiles": {
     "es": "Perfiles",
     "en": "Profiles",
-    "zh": "资料档案"
+    "zh": "资料"
   },
   "Videojuegos": {
     "es": "Videojuegos",
@@ -41,7 +41,7 @@
   },
   "Español: nativo, Inglés: intermedio": {
     "es": "Español: nativo, Inglés: intermedio",
-    "en": "Native, Intermediate",
+    "en": "Spanish: Native, English: Intermediate",
     "zh": "西班牙语：母语，英语：中级"
   },
   "Desarrollador de software con orientación artística": {
@@ -52,12 +52,12 @@
   "Me gusta la creatividad, el desarrollo y el progreso de la humanidad. Por eso disfruto crear productos y servicios que mejoren la vida de las personas. Pienso que a través del arte se puede entretener y enseñar. Y con la ciencia se puede desarrollar y progresar.": {
     "es": "Me gusta la creatividad, el desarrollo y el progreso de la humanidad. Por eso disfruto crear productos y servicios que mejoren la vida de las personas. Pienso que a través del arte se puede entretener y enseñar. Y con la ciencia se puede desarrollar y progresar.",
     "en": "I like creativity, development and the progress of humanity. That is why I enjoy creating products and services that improve people's lives. I think that through art you can entertain and teach. And with science you can develop and progress.",
-    "zh": "我喜欢人类的创造力、发展和进步。因此，我喜欢创造能够改善人们生活的产品和服务。我认为通过艺术可以娱乐和教育。通过科学可以发展和进步。"
+    "zh": "我喜欢人类的创造力、发展和进步。因此，我喜欢创造能够改善人们生活的產品和服务。我认为通过艺术可以娱乐和教育。通过科学可以发展和进步。"
   },
-  "+20 años de experiencia.": {
-    "es": "+20 años de experiencia.",
-    "en": "+20 years of experience.",
-    "zh": "+20年经验。"
+  "&plus;20 años de experiencia.": {
+    "es": "&plus;20 años de experiencia.",
+    "en": "&plus;20 years of experience.",
+    "zh": "&plus;20年经验。"
   },
   "Perfiles públicos": {
     "es": "Perfiles públicos",
@@ -77,11 +77,11 @@
   "En 2014 tomé la decisión de intentar emprender con el desarrollo de videojuegos. Porque la vida me fue llevando a adquirir experiencia que era útil para ese propósito.": {
     "es": "En 2014 tomé la decisión de intentar emprender con el desarrollo de videojuegos. Porque la vida me fue llevando a adquirir experiencia que era útil para ese propósito.",
     "en": "In 2014 I made the decision to try to start a business with video game development. Because life led me to acquire experience that was useful for that purpose.",
-    "zh": "2014年，我做出了尝试开发视频游戏的决定。因为生活让我获得了对这个目的有用的经验。"
+    "zh": "在2014年，我做出了尝试创业开发视频游戏的决定。因为生活让我获得了对这个目的有用的经验。"
   },
   "Actualmente me apasiona hacer este tipo de trabajos. He tenido que realizar, no sólo la programación, sino que también la planificación, el diseño, los gráficos, fxs, la música, sonidos e incluso videos promocionales.": {
     "es": "Actualmente me apasiona hacer este tipo de trabajos. He tenido que realizar, no sólo la programación, sino que también la planificación, el diseño, los gráficos, fxs, la música, sonidos e incluso videos promocionales.",
-    "en": "Currently I am passionate about doing this type of work. I have had to carry out not only the programming, but also the planning, the design, the graphics, fxs, the music, sounds and even promotional videos.",
+    "en": "Currently, I am passionate about doing this type of work. I have had to carry out not only the programming, but also the planning, the design, the graphics, VFX, the music, sounds and even promotional videos.",
     "zh": "目前我热衷于做这类工作。我不仅需要进行编程，还需要进行规划、设计、图形、特效、音乐、声音，甚至宣传视频。"
   },
   "Godot Engine es mi motor de videojuegos favorito. Llevo utilizándolo desde 2019.": {
@@ -91,13 +91,13 @@
   },
   "Empecé a utilizarlo en 2013 (aunque lo conocía desde antes) y ahora es mi herramienta cotidiana, incluso para editar video. Me gusta trabajar con los nodos.": {
     "es": "Empecé a utilizarlo en 2013 (aunque lo conocía desde antes) y ahora es mi herramienta cotidiana, incluso para editar video. Me gusta trabajar con los nodos.",
-    "en": "I started using it in 2013 (although I knew about it before) and now it is my everyday tool, even for video editing. I like working with nodes.",
-    "zh": "我从2013年开始使用它（虽然我之前就了解它了），现在它是我的日常工具，甚至用于编辑视频。我喜欢使用节点进行操作。"
+    "en": "I started using it in 2013 (although I knew about it before) and now it is my everyday tool, even for video editing. I like working with the nodes.",
+    "zh": "我从2013年开始使用它（虽然我之前就了解它了），现在它是我的日常工具，甚至用于编辑视频。我喜欢使用节点工作。"
   },
   "Para hacer la música probé este DAW en 2018. Me gustó tanto que ahora es una herramienta obligada cuando se trata de producción musical.": {
     "es": "Para hacer la música probé este DAW en 2018. Me gustó tanto que ahora es una herramienta obligada cuando se trata de producción musical.",
     "en": "To make music I tried this DAW in 2018. I liked it so much that now it is a must-have tool when it comes to music production.",
-    "zh": "为了制作音乐，我尝试了这个DAW在2018年。我非常喜欢它，现在它在音乐制作中是一项必不可少的工具。"
+    "zh": "为了制作音乐，我尝试了这款DAW，时间是2018年。我非常喜欢它，以至于现在它在音乐制作方面是一项必不可少的工具。"
   },
   "Empecé a usar Inkscape también en 2013. Desde ese entonces que no puedo prescindir de él.": {
     "es": "Empecé a usar Inkscape también en 2013. Desde ese entonces que no puedo prescindir de él.",
@@ -112,22 +112,22 @@
   "Me fascina la generación procedural. Así que trato de usarla en cada creación.": {
     "es": "Me fascina la generación procedural. Así que trato de usarla en cada creación.",
     "en": "I am fascinated by procedural generation. So I try to use it in every creation.",
-    "zh": "我着迷于程序化生成。因此，我试图在每次创作中使用它。"
+    "zh": "我着迷于程序化生成。所以我尽量在每次创作中使用它。"
   },
   "Mira este juego para un ejemplo práctico.": {
     "es": "Mira este juego para un ejemplo práctico.",
     "en": "Look at this game for a practical example.",
-    "zh": "请看这个游戏以获取一个实际的例子。"
+    "zh": "请看这个游戏以获取实际示例。"
   },
   "Me encantó y aprendí poniendo a prueba mis habilidades de programación. Creando y practicando con shaders, el fotorealismo, es mi favorito.": {
     "es": "Me encantó y aprendí poniendo a prueba mis habilidades de programación. Creando y practicando con shaders, el fotorealismo, es mi favorito.",
     "en": "I loved it and learned by testing my programming skills. Creating and practicing with shaders, photorealism is my favorite.",
-    "zh": "我喜欢并通过测试我的编程技能来学习。创建和练习着色器、照片级真实感是我最喜欢的。"
+    "zh": "我喜欢并通过测试我的编程技能来学习。创建和练习着色器、照片写实主义，是我的最爱。"
   },
   "En 1999 pasaba por una tienda de música y vi en la estantería un libro con CD que decía que era para hacer videojuegos. Lo compré y fue mi primera experiencia usando un motor de videojuegos.": {
     "es": "En 1999 pasaba por una tienda de música y vi en la estantería un libro con CD que decía que era para hacer videojuegos. Lo compré y fue mi primera experiencia usando un motor de videojuegos.",
     "en": "In 1999 I was walking through a music store and I saw on the shelf a book with a CD that said it was for making video games. I bought it and it was my first experience using a game engine.",
-    "zh": "1999年，我路过一家音乐店，在货架上看到一本带CD的书，上面说这本书是用来制作视频游戏的。我买下了它，这是我第一次使用游戏引擎的经验。"
+    "zh": "1999年，我路过一家音乐店，在货架上看到一本带CD的书，上面说这本书是用来制作视频游戏的。我买下了它，这是我第一次使用游戏引擎的经历。"
   },
   "Inteligencia Artificial": {
     "es": "Inteligencia Artificial",
@@ -136,13 +136,13 @@
   },
   "En 2018 probé por primera vez Stable Diffusion. Desde ese entonces que no he parado de probar y usar la Inteligencia Artificial.": {
     "es": "En 2018 probé por primera vez Stable Diffusion. Desde ese entonces que no he parado de probar y usar la Inteligencia Artificial.",
-    "en": "In 2018 I tried Stable Diffusion for the first time. Since then I haven't stopped testing and using Artificial Intelligence.",
+    "en": "In 2018 I tried Stable Diffusion for the first time. Since then I haven’t stopped testing and using Artificial Intelligence.",
     "zh": "2018年我第一次尝试了Stable Diffusion。从那时起，我就一直在尝试和使用人工智能。"
   },
   "Con varios workflows personalizados lo utilizo para crear o editar: sonido, voces, imágenes y videos.": {
     "es": "Con varios workflows personalizados lo utilizo para crear o editar: sonido, voces, imágenes y videos.",
     "en": "With several customized workflows I use it to create or edit: sound, voices, images and videos.",
-    "zh": "使用多个自定义工作流程，我用它来创建或编辑：声音、人声、图像和视频。"
+    "zh": "凭借几个定制的工作流程，我用它来创建或编辑：声音、人声、图像和视频。"
   },
   "Es mi favorito para traducciones con prompts personalizados.": {
     "es": "Es mi favorito para traducciones con prompts personalizados.",
@@ -161,8 +161,8 @@
   },
   "Comencé a experimentar con Linux en el año 2001. Mi primer servidor Linux usando RedHat. Actualmente uso Linux a diario en mi computadora principal y tengo experiencia instalando, configurando y administrando VPS con Linux.": {
     "es": "Comencé a experimentar con Linux en el año 2001. Mi primer servidor Linux usando RedHat. Actualmente uso Linux a diario en mi computadora principal y tengo experiencia instalando, configurando y administrando VPS con Linux.",
-    "en": "I started experimenting with Linux in the year 2001. My first Linux server using RedHat. Currently I use Linux daily on my main computer and I have experience installing, configuring and managing Linux VPS.",
-    "zh": "我从 2001 年开始尝试 Linux。我的第一个 Linux 服务器使用 RedHat。我目前每天在我的主计算机上使用 Linux，并且有安装、配置和管理 Linux VPS 的经验。"
+    "en": "I started experimenting with Linux in 2001. My first Linux server using RedHat. Currently I use Linux daily on my main computer and I have experience installing, configuring and managing Linux VPS.",
+    "zh": "我从 2001 年开始尝试 Linux。我的第一个 Linux 服务器使用 RedHat。我目前每天在我的主计算机上使用 Linux，并且具有安装、配置和管理 Linux VPS 的经验。"
   },
   "Frameworks y CMS": {
     "es": "Frameworks y CMS",
@@ -171,13 +171,13 @@
   },
   "Mi interés por los servicios en Linux desencadenó a su vez un interés por PHP. Usé PHP desde sus inicios, así que vi nacer muchos frameworks y CMS con él.": {
     "es": "Mi interés por los servicios en Linux desencadenó a su vez un interés por PHP. Usé PHP desde sus inicios, así que vi nacer muchos frameworks y CMS con él.",
-    "en": "My interest in services on Linux triggered in turn an interest in PHP. I used PHP from its beginnings, so I saw many frameworks and CMS born with it.",
-    "zh": "我对 Linux 服务的兴趣进而引发了我对 PHP 的兴趣。我从 PHP 早期就开始使用它，所以见证了许多框架和 CMS 与它一起诞生。"
+    "en": "My interest in services on Linux triggered an interest in PHP in turn. I used PHP from its beginnings, so I saw many frameworks and CMS born with it.",
+    "zh": "我对 Linux 服务的兴趣反过来又引发了我对 PHP 的兴趣。我从 PHP 早期就开始使用它，所以见证了许多框架和 CMS 与之一起诞生。"
   },
   "Trabajos realizados": {
     "es": "Trabajos realizados",
     "en": "Work done",
-    "zh": "已完成工作"
+    "zh": "已完成的工作"
   },
   "Trabajos que he realizado a lo largo de los años.": {
     "es": "Trabajos que he realizado a lo largo de los años.",
@@ -187,12 +187,12 @@
   "Landing pages.": {
     "es": "Landing pages.",
     "en": "Landing pages.",
-    "zh": "着陆页."
+    "zh": "着陆页。"
   },
   "Tiendas web online.": {
     "es": "Tiendas web online.",
     "en": "Online stores.",
-    "zh": "网上商店。"
+    "zh": "网上商店"
   },
   "Web de restaurante.": {
     "es": "Web de restaurante.",
@@ -212,7 +212,7 @@
   "Con mi curiosidad por la tecnología empecé a probar y usar los servicios que venían en Linux. Y como desarrollador avanzado, no me puede faltar su instalación y uso cuando lo necesito.": {
     "es": "Con mi curiosidad por la tecnología empecé a probar y usar los servicios que venían en Linux. Y como desarrollador avanzado, no me puede faltar su instalación y uso cuando lo necesito.",
     "en": "With my curiosity about technology I started testing and using the services that came with Linux. And as an advanced developer, I cannot miss its installation and use when I need it.",
-    "zh": "随着我对技术的兴趣，我开始尝试和使用 Linux 提供的服务。作为一名高级开发人员，我需要时必须安装和使用它。"
+    "zh": "随着我对技术的兴趣，我开始尝试和使用 Linux 提供的服务。作为一名高级开发人员，我需要时必不可少地安装和使用它。"
   },
   "Habilidades de programación": {
     "es": "Habilidades de programación",
@@ -222,7 +222,7 @@
   "Comencé a programar cuando tenía 12 años en una calculadora científica. A los 15 años un tío me enseñó un PC. Tomé los manuales, y me puse a experimentar. Desde ese momento casi no he dejado de hacerlo.": {
     "es": "Comencé a programar cuando tenía 12 años en una calculadora científica. A los 15 años un tío me enseñó un PC. Tomé los manuales, y me puse a experimentar. Desde ese momento casi no he dejado de hacerlo.",
     "en": "I started programming when I was 12 years old on a scientific calculator. At 15, an uncle taught me a PC. I took the manuals, and I started to experiment. Since then I have hardly stopped doing it.",
-    "zh": "我12岁的时候开始在科学计算器上编程。15岁的时候，我的一个叔叔教我使用电脑。我拿到了手册，开始尝试。从那时起，我几乎就没有停止过。"
+    "zh": "我12岁的时候开始在科学计算器上编程。15岁的时候，我的一个叔叔教我使用电脑。我拿了手册，开始尝试。从那时起，我几乎就没停过。"
   },
   "Libros de Electricidad y Electrónica Básica, entre otros.": {
     "es": "Libros de Electricidad y Electrónica Básica, entre otros.",
@@ -251,13 +251,13 @@
   },
   "Dueño. Instalación de los equipos. Preparado de un servidor para compartir Internet. Atención al público y servicio técnico. Trabajos de oficina (tipeos, impresiones, escaneos).": {
     "es": "Dueño. Instalación de los equipos. Preparado de un servidor para compartir Internet. Atención al público y servicio técnico. Trabajos de oficina (tipeos, impresiones, escaneos).",
-    "en": "Owner. Equipment installation. Preparing a server to share Internet. Customer service and technical support. Office work (typing, printing, scanning).",
+    "en": "Owner. Equipment installation. Setting up a server to share Internet. Customer service and technical support. Office work (typing, printing, scanning).",
     "zh": "业主。设备安装。准备一个共享互联网的服务器。公共接待与技术服务。办公室工作（打字、打印、扫描）。"
   },
   "Dueño. Venta de insumos y accesorios informáticos. Atención al público y servicio técnico. Trabajos de oficina (tipeos, impresiones, escaneos).": {
     "es": "Dueño. Venta de insumos y accesorios informáticos. Atención al público y servicio técnico. Trabajos de oficina (tipeos, impresiones, escaneos).",
     "en": "Owner. Sale of supplies and computer accessories. Customer service and technical support. Office work (typing, printing, scanning).",
-    "zh": "业主。电脑耗材及配件销售。公共服务和技术支持。办公室工作（打字、打印、扫描）。"
+    "zh": "业主。电脑耗材及配件销售。公共服务及技术支持。办公工作（打字、打印、扫描）。"
   },
   "Radioaficionado Novicio": {
     "es": "Radioaficionado Novicio",
@@ -267,7 +267,7 @@
   "Dueño. Planificación y emprendimiento de proyectos, estrategias técnicas y comerciales para la empresa. Prestación de servicios comunicacionales y técnicos. Venta de productos afines. Desarrollo de sistemas tecnológicos para aplicaciones comerciales y otras. Comercio electrónico (e­marketing). Innovaciones tecnológicas.": {
     "es": "Dueño. Planificación y emprendimiento de proyectos, estrategias técnicas y comerciales para la empresa. Prestación de servicios comunicacionales y técnicos. Venta de productos afines. Desarrollo de sistemas tecnológicos para aplicaciones comerciales y otras. Comercio electrónico (e­marketing). Innovaciones tecnológicas.",
     "en": "Owner. Project planning and entrepreneurship, technical and commercial strategies for the company. Provision of communication and technical services. Sale of related products. Development of technological systems for commercial and other applications. Electronic commerce (e-marketing). Technological innovations.",
-    "zh": "业主。项目规划与创业，技术和商业策略用于公司。提供沟通和技术服务。销售相关产品。商业应用和其他技术系统的开发。电子商务（电子营销）。技术创新。"
+    "zh": "业主。项目规划与创业，技术和商业策略用于公司。提供沟通和技术服务。销售相关产品。商业及其他应用的技术系统开发。电子商务（电子营销）。技术创新。"
   },
   "Diseño y desarrollo de panel electrónico de acondicionador de aire.": {
     "es": "Diseño y desarrollo de panel electrónico de acondicionador de aire.",
